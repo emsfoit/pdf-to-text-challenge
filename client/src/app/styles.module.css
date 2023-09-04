@@ -1,0 +1,51 @@
+.title {
+  padding: 24px;
+  font-size: 50px;
+  font-weight: 900;
+  text-align: center;
+  color: #e1651c;
+}
+.resultTitle {
+  margin: 10px 0;
+  font-size: 26px;
+  font-weight: 700;
+}
+.uploadFileButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 250px;
+  width: 100%;
+
+  color: #9d8e8e;
+  background: rgba(251, 163, 31, 0.1);
+  cursor: pointer;
+  border-radius: 10px;
+
+  text-align: center;
+}
+.resultTextContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+
+  border: 1px solid #000000;
+  border-radius: 10px;
+  padding: 20px;
+
+  max-height: 300px;
+  overflow-y: scroll;
+}
+.buttonsList {
+  display: flex;
+  margin: 20px 0;
+}
+.buttonsList > li {
+  list-style-type: none;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.buttonsList > li:not(:last-child) {
+  margin-right: 20px;
+}
