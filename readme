@@ -1,0 +1,29 @@
+# Pdf To Text Chalenge
+The project is developed using nest js and next Js.
+
+## Getting Started
+
+1. Ensure you have Node.js installed.
+2. Install the packages in each project using `npm install`
+
+## Running the frontend Project
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
+you should be able to access the frontend in the browser through http://localhost:3000/
+## Running the backend Project
+```bash
+# development
+$ npm run start
+
+# watch mode
+$ npm run start:dev
+
+# production mode
+$ npm run start:prod
+```
+The backend will be available to accept requests in http://localhost:3001/
